@@ -12,7 +12,7 @@ Ce dōjutsu a été réveillé par Boruto Uzumaki dans son œil droit. Dans le m
 Lorsqu'il a été utilisé pour la première fois pendant son temps dans l'Académie, Boruto ne semblait pas pouvoir l'activer à la commande, mais l'œil s'activait involontairement lorsque Boruto concentrait son attention sur une personne ou un objet particulier. En tant qu'adolescent, il a montré sa capacité à l'activer à volonté.
 
 ## Le dojutsu de Boruto Uzumaki
-![Alt text](img/eye.png)    
+![Alt text](img/Eye.png)    
 
 ## Capacités
 
