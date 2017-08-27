@@ -1,0 +1,40 @@
+---
+layout: default
+title: home
+---
+
+
+<section class=" blog black" id="blog">
+         <div  >
+             <div class="well center animation " data-stellar-background-ratio="0.5" data-animation="zoomIn">
+                 <h1>Forum</h1>
+                 <p>Bienvenue sur la partie forum du site. <br />Dans cette section, nous allons discutes sur les moment for de la serie Boruto...<br> Toujours en construction, Donnez nous des feed-back s'il vous plais...pour des amelioration</p>
+             </div>
+
+             <div class="container">
+                 <div class="well row animation " data-stellar-background-ratio="0.5" data-animation="zoomIn">
+                     {% for post in site.posts %}
+                     <div class="col-md-4 soul">
+                         
+                         
+                       
+                         <img src="{{ post.images }}"/>
+                         <br>
+                        
+                       
+                         <h3><a class="post-name" href="{{ post.url | prepend: site.github.url}}">{{ post.title }}</a></h3>
+                         <p class="post-description1"><i>by </i> <b><span class="primary"> {{ post.author }} </span></b> <i>on</i> <b class="date1">{{ post.date | date: "%B %d, %Y" }}</b></p>
+                         {{ post.excerpt }}
+                         <br>
+                         <a class="btn btn-primary" href="{{ post.url | prepend: site.github.url}}">Read More <span class=""></span></a>
+
+                         <br />
+                         
+                     </div>
+                     {% endfor %}
+                      
+                 </div>
+               
+             </div>
+         </div>
+     </section>

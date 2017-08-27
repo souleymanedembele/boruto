@@ -1,0 +1,91 @@
+---
+layout: default
+---
+
+           
+
+<!-- POST HTML -->
+<article id="post" class=" well blog ">
+    <div>
+      <div class="well center animation " data-stellar-background-ratio="0.5" data-animation="zoomIn">
+                 <h1 class="black">{{ page.title }}</h1>
+             </div>
+    
+    <div class="section-padding container">
+
+        <div class="row">
+
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8 well black">
+
+                <!-- Blog Post -->
+
+                <!-- Title -->
+                <h1><a class="post-name" href="{{ page.url | prepend: site.github.url }}">{{ page.title }}</a></h1>
+                         <p class="post-description1"><i>by </i> <b><span class="primary"> {{ page.author }} </span></b> <i>on</i> <b class="date1">{{ page.date | date: "%B %d, %Y" }}</b></p>
+                
+                {% if page.image %}
+                   <!-- Preview Image -->
+                   <img class="img-responsive" src="{{ page.image }}" alt="{{ page.image }}">
+                {% endif %}
+                
+                
+                {% if page.lead %}
+
+                <!-- Post Content -->
+                
+                <p class="lead">{{ page.lead }}</p>
+                
+                {% endif %}
+                
+                <p class="black">{{ page.content }}</p>
+
+                {% include comments.html %}
+
+                 {% if page.previous %}
+                  <span class="previous-link">
+                    <a rel="prev" href="{{ page.previous.url | prepend: site.github.url }}">Previous article</a>
+                  </span>
+                {% endif %}
+                
+                   {% if page.next%}
+                  <span class="next-link pull-right">
+                    <a rel="next" href="{{ page.next.url | prepend: site.github.url }}">Next article</a>
+                  </span>
+                    {% endif %}
+                
+            </div>
+
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4">
+
+                <!-- Blog Categories Well -->
+                <div class="well">
+                    {% for category_name in page.categories limit:1 %}
+                    <h4>{{ category_name | capitalize }}</h4>
+                  
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="list-unstyled">
+                                {% for post in site.categories[category_name] limit:5 %}
+                                <li><a href="post.url | prepend: site.github.url">{{ post.title }}</a>
+                                </li>
+                                {% endfor %}
+                               
+                            </ul>
+                        </div>
+                    </div>
+                      {% endfor %}
+                    <!-- /.row -->
+                </div>
+
+                <!-- Side Widget Well -->
+             
+            </div>
+
+        </div>
+          </div>
+        <!-- /.row -->
+    </div>
+      
+</article>
