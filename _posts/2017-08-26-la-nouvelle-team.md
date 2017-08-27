@@ -11,6 +11,7 @@ image: img/blog/blog2.png
 
 
 Mitsuki a été créé comme humain synthétique par Orochimaru, cultivé à partir du même embryon qu'au moins un plus ancien "Mitsuki". Tout comme son «frère», Mitsuki a été nommé d'après "Tsuki" (杯, signifiant littéralement: Vessel) et le sixième signe du calendrier chinois du zodiaque, "Mi" (巳, signifiant littéralement: Snake). <br >
+
 Orochimaru, en tant que «parent» de Mitsuki, voulait que Mitsuki trouve son indépendance, ayant inventé un complot complexe pour Mitsuki. Sur la sixième tentative du plan d'Orochimaru, chaque fois que l'on efface les souvenirs de Mitsuki du précédent, Mitsuki maîtrise Sage Transformation et décide de se rebeller contre son «parent» et son «frère aîné». Il a quitté son entreprise et s'est engagé à forger son propre destin lui-même, maintenant sous le nom de "Mitsuki" (巳 月, Mitsuki) en remplaçant le second personnage par "Tsuki" (க, Literally meaning: Moon). Après avoir découvert l'existence de Boruto Uzumaki par un cadeau d'Orochimaru, Mitsuki a décidé d'aller à Konoha et de l'amitier pour trouver son propre chemin dans la vie.
 
 
