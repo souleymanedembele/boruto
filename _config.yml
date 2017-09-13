@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: boruto-today
+title: Today-Boruto | Streaming, Vostfr
 email: sdembele@my.spscc.edu
 description: "Comme le nom l'indique, vous retrouverez touts les moment fort de l'anime Boruto: Naruto Next Generation sur ce website"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -25,7 +25,7 @@ github_username:  jekyll
 markdown: kramdown
 
 permalink: none
-comments: true 
+comments: true
 defaults:
   -
     scope:
