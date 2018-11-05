@@ -17,7 +17,7 @@ title: Today-Boruto | Streaming, Vostfr
 email: sdembele@my.spscc.edu
 description: "Comme le nom l'indique, vous retrouverez touts les moment fort de l'anime Boruto: Naruto Next Generation sur ce website"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://soulstartlight.github.io/boruto/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://soulstartlight.github.io/boruto/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
